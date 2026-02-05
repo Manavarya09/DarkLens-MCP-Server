@@ -1,0 +1,1 @@
+"""DarkLens MCP Server - A sample MCP server demonstrating resources, tools, and prompts."""

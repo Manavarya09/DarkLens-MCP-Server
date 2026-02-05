@@ -1,0 +1,121 @@
+{
+  "patterns": [
+    {
+      "id": "confirmshaming",
+      "name": "Confirmshaming",
+      "description": "Using shame or guilt to pressure users into agreeing",
+      "examples": [
+        "No thanks, I don't want to save money",
+        "I don't care about my privacy",
+        "No thanks. I don't like free things...",
+        "I don't feel lucky",
+        "OUR BEST SELLING GOGGLE"
+      ],
+      "cognitive_bias": "Social proof, Fear of missing out",
+      "severity": "High"
+    },
+    {
+      "id": "forced_consent",
+      "name": "Forced Consent",
+      "description": "Making it difficult or impossible to reject consent",
+      "examples": [
+        "Pre-checked boxes",
+        "Hidden reject buttons",
+        "I would like to join Backstage Pass & agree to the Terms & Conditions",
+        "I agree to receive marketing emails from Natural Life",
+        "I accept the Terms & Conditions of the FREE Brother Care Program"
+      ],
+      "cognitive_bias": "Default bias",
+      "severity": "High"
+    },
+    {
+      "id": "roach_motel",
+      "name": "Roach Motel",
+      "description": "Easy to get in, hard to get out",
+      "examples": ["Free trials that auto-renew", "Subscription traps"],
+      "cognitive_bias": "Sunk cost fallacy",
+      "severity": "High"
+    },
+    {
+      "id": "hidden_costs",
+      "name": "Hidden Costs",
+      "description": "Concealing fees or charges",
+      "examples": ["Shipping not included", "Taxes added at checkout"],
+      "cognitive_bias": "Anchoring",
+      "severity": "Medium"
+    },
+    {
+      "id": "sneak_into_basket",
+      "name": "Sneak Into Basket",
+      "description": "Adding items without user consent",
+      "examples": [
+        "Auto-added insurance",
+        "Bundled products",
+        "Shipping Insurance Remove Insurance",
+        "1 Netflix offer: Not available to customers with an active Netflix offer",
+        "After 1 year, subscription auto renews with fee"
+      ],
+      "cognitive_bias": "Default bias",
+      "severity": "High"
+    },
+    {
+      "id": "fake_urgency",
+      "name": "Fake Urgency",
+      "description": "Creating false time pressure",
+      "examples": [
+        "Only 2 left in stock",
+        "Sale ends in 5 minutes",
+        "FLASH SALE | LIMITED TIME ONLY Shop Now",
+        "HURRY! EXCLUSIVE DEAL FOR YOU!",
+        "Offer ends in",
+        "Hurry! Only 2 left in stock",
+        "In Stock only 3 left",
+        "Hurry! Only 2 left"
+      ],
+      "cognitive_bias": "Scarcity principle",
+      "severity": "Medium"
+    },
+    {
+      "id": "visual_manipulation",
+      "name": "Visual Manipulation",
+      "description": "Using design to mislead",
+      "examples": ["Tiny reject buttons", "Color tricks"],
+      "cognitive_bias": "Attention bias",
+      "severity": "Medium"
+    },
+    {
+      "id": "default_bias_exploitation",
+      "name": "Default Bias Exploitation",
+      "description": "Setting manipulative defaults",
+      "examples": ["Opt-in by default", "Pre-selected options"],
+      "cognitive_bias": "Status quo bias",
+      "severity": "High"
+    },
+    {
+      "id": "nagging",
+      "name": "Nagging / Repeated Interruptions",
+      "description": "Persistent annoying requests",
+      "examples": [
+        "Pop-ups every few minutes",
+        "Repeated notifications",
+        "When you join the PetPlus Plan, you are given the option to purchase your membership",
+        "No Worry Membership Renewal We will bill your credit card",
+        "You may cancel your JustFab VIP Membership at any time"
+      ],
+      "cognitive_bias": "Irritation principle",
+      "severity": "Low"
+    },
+    {
+      "id": "social_proof",
+      "name": "Social Proof Manipulation",
+      "description": "Using fake social validation to influence behavior",
+      "examples": [
+        "1,142 people have added to cart recently",
+        "Michael in Pontiac, United States purchased a",
+        "9 people are viewing this"
+      ],
+      "cognitive_bias": "Social proof",
+      "severity": "Medium"
+    }
+  ]
+}
