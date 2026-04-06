@@ -2,6 +2,7 @@
 
 import asyncio
 import json
+import os
 import re
 from typing import Any, Dict, List
 
@@ -13,8 +14,9 @@ from mcp.server.fastmcp import FastMCP
 # Create the MCP server
 mcp = FastMCP("DarkLens MCP Server")
 
-# Load dark patterns data
-with open('/Users/manavaryasingh/DarkLens-MCP-Server/data/dark_patterns.json', 'r') as f:
+# Load dark patterns data using a path relative to this file
+_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+with open(os.path.join(_DATA_DIR, 'dark_patterns.json'), 'r') as f:
     DARK_PATTERNS_DATA = json.load(f)
 
 DARK_PATTERNS = DARK_PATTERNS_DATA['patterns']
